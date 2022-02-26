@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>js</title>
 </head>
+
 <body>
 
-  <script src="./index.js"></script>
+    <header class="header">
+        <div class=" header__container container ">
+
+            <form class="header__form" action="https://echo.htmlacademy.ru/" method="POST">
+
+                <input class="header__text-input"  value="" type="number" placeholder="valuta" name="valuta" required>
+
+                <select class="main__select" name="type" id="mode_select" required>
+                    <option value="" disabled selected hidden>valyutalar</option>
+                    <optgroup label="MODLAR">
+                        <option value="RUBL">RUBL</option>
+                        <option value="USD">USD </option>
+                        <option value="EVRO">EVRO</option>
+                </select>
+
+                <button  class="submit" type="submit">Submit</button>
+            </form>
+
+            <div class="main__text" id="main-text"> kurslari </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+
+        </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
